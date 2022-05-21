@@ -1,0 +1,31 @@
+{
+  "name": "express-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanAhmerov/express-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanAhmerov/express-sample/issues"
+  },
+  "homepage": "https://github.com/RomanAhmerov/express-sample#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-fileupload": "^1.3.1",
+    "mongoose": "^6.3.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
